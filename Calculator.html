@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel = "stylesheet" href = "Calculator.css">
+</head>
+<body>
+    <div class="calculator">
+
+        <div class = "display" id = "display-window"></div>
+        <button onclick="clearDisplay()" class = "button">AC</button>
+        <button onclick="addToDisplay('()')" class = "button">()</button>
+        <button onclick="addToDisplay('%')" class = "button">%</button>
+        <button onclick="addToDisplay('/')" class = "button">/</button>
+        <button onclick="addToDisplay('7')" class = "button">7</button>
+        <button onclick="addToDisplay('8')" class = "button">8</button>
+        <button onclick="addToDisplay('9')" class = "button">9</button>
+        <button onclick="addToDisplay('*')" class = "button">*</button>
+        <button onclick="addToDisplay('4')" class = "button">4</button>
+        <button onclick="addToDisplay('5')" class = "button">5</button>
+        <button onclick="addToDisplay('6')" class = "button">6</button>
+        <button onclick="addToDisplay('-')" class = "button">-</button>
+        <button onclick="addToDisplay('1')" class = "button">1</button>
+        <button onclick="addToDisplay('2')" class = "button">2</button>
+        <button onclick="addToDisplay('3')" class = "button">3</button>
+        <button onclick="addToDisplay('+')" class = "button">+</button>
+        <button onclick="addToDisplay('0')" class = "button">0</button>
+        <button onclick="addToDisplay('.')" class = "button">.</button>
+        <button onclick="deleteRecentChar()" class = "button">Del</button>
+        <button onclick="calculateResult()" class = "button">=</button>
+    </div>
+    <script src = "Calculator.js"></script>
+</body>
+</html>
+

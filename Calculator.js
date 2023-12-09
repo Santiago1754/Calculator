@@ -40,10 +40,6 @@ function calculateResult() {
 }
 
 function evaluateExpression(expression) {
-    // Your custom expression evaluator logic goes here
-    // This function should evaluate the mathematical expression
-    // For example, you can use the Shunting-yard algorithm or other methods for evaluation
-    // This is a basic example that uses eval for demonstration purposes (not recommended in production)
     
 
     return eval(expression);
